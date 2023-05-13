@@ -1,13 +1,14 @@
-package main 
+package main
 
 import (
 	"fmt"
 )
+
 func main() {
 
 	type person struct {
 		name string
-		age int
+		age  int
 	}
 
 	rahul := person{name: "Rahul", age: 20}
