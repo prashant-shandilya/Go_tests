@@ -11,6 +11,6 @@ func main() {
 		last string
 		age int
 	}
-	p1 := person{"James", "Bond", 20}
+	p1 := person{"James", "Bond", 34}
 	fmt.Println(p1)
 }
