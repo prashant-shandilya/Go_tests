@@ -13,11 +13,11 @@ func main(){
 		3: "three",
 	}
 
-	// fmt.Println(a)
+	fmt.Println(a)
 	delete(a, 2)
-	// ele , ok := a[2]
+	ele , ok := a[2]
 	fmt.Println(a[5])
 	
-	// fmt.Println(ele, ok)
+	fmt.Println(ele, ok)
 
 }
