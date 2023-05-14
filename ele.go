@@ -14,5 +14,8 @@ func main() {
 	fmt.Printf("I am in main function\n")
 ele()
 
+x := []byte("mohammed ali")
+fmt.Println(x)
+
 }
 
