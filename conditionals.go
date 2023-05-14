@@ -9,6 +9,8 @@ var x int  = 8
 	if x > 10 || jio() || x >15{
 		fmt.Println("x is greater than 10")
 	}
+
+	fmt.Println(x > 10 , x < 10 )
 }
 
 func jio() bool {
