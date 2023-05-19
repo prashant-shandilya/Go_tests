@@ -15,6 +15,7 @@ func main() {
 ele()
 
 x := []byte("mohammed ali")
+panic("Panic in main function")
 fmt.Println(x)
 
 }
